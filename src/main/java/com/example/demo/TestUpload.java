@@ -1,14 +1,10 @@
 package com.example.demo;
 
-import com.sun.deploy.net.HttpResponse;
-
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 import java.nio.file.Files;
-import java.security.MessageDigest;
-import java.util.ArrayList;
 
 /**
  * Created by thomasliao on 2017/6/21.
