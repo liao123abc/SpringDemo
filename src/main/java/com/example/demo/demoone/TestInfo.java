@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.demoone;
 
 import com.example.demo.model.InfoPa;
 import com.fasterxml.jackson.databind.SerializationFeature;

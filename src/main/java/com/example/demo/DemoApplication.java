@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,6 +10,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 2.使用builder模式封装好httpclient来进行操作
  */
 @SpringBootApplication
+// mapper 接口类扫描包配置
+@MapperScan("com.example.demo.dao")
 public class DemoApplication {
 
 	public static void main(String[] args) {
